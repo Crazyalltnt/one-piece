@@ -1,0 +1,145 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	border-radius: 0px;
+	padding: 0px;
+	margin: 0px;
+	color: #000000;
+	background-color: #B7F2EB;
+	background-repeat: no-repeat;
+	background-position: center 40px;
+}
+
+#top {
+	height: 40px;
+	background-image: url(../image/header.jpg);
+}
+#top #top-main {
+	height: 40px;
+	width: 82%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#top #top-main h1 {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size: 12px;
+	margin: 0px;
+	padding: 0px;
+	height: 40px;
+	width: 90px;
+	background-image: url(../image/top1.png);
+	background-repeat: no-repeat;
+	float: left;
+}
+#top #top-main h1 a {
+	text-indent: -9999px;
+	display: block;
+	height: 40px;
+	width: 85px;
+}
+#top  #top-main ul {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	padding-left: 15px;
+	list-style-type: none;
+	float: left;
+	height: 40px;
+	line-height: 40px;
+}
+#top  #top-main ul li {
+	padding-right: 5px;
+	display: inline;
+}
+#top #top-main ul {
+	width: auto;
+}
+#top #top-main ul li a {
+	color: #000000;
+	text-decoration: none;
+}
+#top #top-main ul li a:hover  {
+	text-decoration: underline;
+}
+#top  #top-main #form1 {
+	margin-left: 595px;
+	width: 358px;
+	height: 40px;
+	float: none;
+ }
+#top  #top-main #form1 .textfield {
+	color: #666666;
+	height: 25px;
+	width: 120px;
+	border: 1px solid #666666;
+}
+#top #top-main #form1 .button {
+	background-image: url(../image/button_bg.gif);
+	width: 45px;
+	height: 20px;
+	text-align: right;
+}
+
+#wangyou {
+	width: 1000px;
+	height: 3900px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+#wangyou #qihang {
+	width: 1000px;
+	height: 1550px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+#wangyou #qihang h4 {
+	margin-left: 480px;
+}
+#wangyou #qihang #pic1 {
+	width: 511px;
+	height: 327px;
+	position: absolute;
+	left: 7px;
+	top: 1140px;
+}
+#wangyou #qihang #pic2 {
+	width: 475px;
+	height: 320px;
+	position: absolute;
+	left: 524px;
+	top: 1143px;
+}
+#wangyou #qiangzhe {
+	width: 1000px;
+	height: 2201px;
+	margin-top: 5px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#wangyou #qiangzhe h4 {
+	margin-left: 480px;
+}
+#wangyou #qiangzhe #pic3 {
+	width: 375px;
+	height: 516px;
+	position: absolute;
+	left: 13px;
+	top: 2791px;
+}
+#wangyou #qiangzhe #pic4 {
+	width: 702px;
+	height: 405px;
+	position: absolute;
+	left: 175px;
+	top: 3339px;
+}
+#wangyou #qiangzhe #pic5 {
+	width: 579px;
+	height: 447px;
+	position: absolute;
+	left: 406px;
+	top: 2813px;
+}

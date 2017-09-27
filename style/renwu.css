@@ -1,0 +1,46 @@
+@charset "utf-8";
+body {
+	background-color: #B7F2EB;
+	background-image: url(../image/show.jpg);
+	margin-left: auto;
+	margin-right: auto;
+}
+#header {
+	width: 800px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+#picture {
+	height: 800px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1200px;
+
+}
+#picture #paragraph {
+	width: 652px;
+	height: 797px;
+	left: 309px;
+	top: 0px;
+	position: absolute;
+	background-position: 0px 0px;
+	font-size: 12px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+#picture #paragraph p {
+	margin-top: 0px;
+	padding: 0px;
+	font-size: 18px;
+}
+#picture #pic {
+	width: 324px;
+	height: 420px;
+	left: 858px;
+	top: 71px;
+	position: absolute;
+	background-position: 0px 0px;
+	font-size: 12px;
+}

@@ -1,0 +1,253 @@
+@charset "utf-8";
+/* CSS Document */
+ 
+body {
+	border-radius: 0px;
+	padding: 0px;
+	margin: 0px;
+	color: #000000;
+	background-color: #B7F2EB;
+	background-image: url(../image/bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center 40px;
+}
+#top {
+	height: 40px;
+	background-image: url(../image/header.jpg);
+}
+#top #top-main {
+	height: 40px;
+	width: 82%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#top #top-main h1 {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size: 12px;
+	margin: 0px;
+	padding: 0px;
+	height: 40px;
+	width: 90px;
+	background-image: url(../image/top1.png);
+	background-repeat: no-repeat;
+	float: left;
+}
+#top #top-main h1 a {
+	text-indent: -9999px;
+	display: block;
+	height: 40px;
+	width: 85px;
+}
+#top  #top-main ul {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	padding-left: 15px;
+	list-style-type: none;
+	float: left;
+	height: 40px;
+	line-height: 40px;
+}
+#top  #top-main ul li {
+	padding-right: 5px;
+	display: inline;
+}
+#top #top-main ul {
+	width: auto;
+}
+#top #top-main ul li a {
+	color: #000000;
+	text-decoration: none;
+
+
+
+}
+#top #top-main ul li a:hover  {
+	text-decoration: underline;
+}
+#top  #top-main #form1 {
+	margin-left: 595px;
+	width: 358px;
+	height: 40px;
+	float: none;
+ }
+#top  #top-main #form1 .textfield {
+	color: #666666;
+	height: 25px;
+	width: 120px;
+	border: 1px solid #666666;
+}
+#top #top-main #form1 .button {
+	background-image: url(../image/button_bg.gif);
+	width: 45px;
+	height: 20px;
+	text-align: right;
+}
+#nav {
+	height: 100px;
+	width: 954px;
+	margin-top: 305px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#nav ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	color:#FFFFFF;
+}
+#nav ul li {
+	display: inline;
+
+}
+#nav ul.ul1 {
+	font-size: 20px;
+	color: #FFF;
+	text-align: right;
+	height: 36px;
+	line-height: 36px;
+	padding-right: 20px;
+	margin-bottom: 8px;
+	font-style: normal;
+	font-weight: 400;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#nav .ul1 li a {
+	padding-left: 10px;
+	color: #FFF;
+	text-decoration: none;
+}
+#nav .ul1 li a:hover {
+	color: #FF0;
+	text-decoration: underline;
+}
+#nav ul.ul2 {
+	line-height: 20px;
+	height: 20px;
+	padding-left: 20px;
+}
+#nav .ul2 li a {
+	color: #FFF;
+	text-decoration: none;
+	padding-right: 3px;
+	padding-left: 3px;
+}
+#nav .ul2 li a:hover {
+	color: #FF0;
+	text-decoration: underline;
+}
+#main {
+	width: 954px;
+	margin: auto;
+	height: 1070px;
+	position: relative;
+	font-size: 12px;
+}
+#main #hot {
+	width: 354px;
+	height: 240px;
+	background-color: #DFFFFC;
+	margin-left: 0px;
+}
+#main #hot strong {
+	float: left;
+	display: block;
+	padding-top: 6px;
+	color: #666600;
+	padding-left: 10px;
+	cursor: pointer;
+}
+
+
+#main #hot img {
+	display: block;
+	border-width: 0px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+#main #hot ul {
+	padding-top: 0px;
+	list-style-type: none;
+	float: right;
+}
+#main #hot ul li {
+	width: 14px;
+	height: 17px;
+	padding-top: 5px;
+	margin-right: 5px;
+	float: left;
+	text-align: center;
+	line-height: 17px;
+	font-weight: bold;
+	color: #036;
+	background-color: #FFF;
+}
+#main #hot ul li a {
+	text-decoration: none;
+	display: block;
+	color: #003366;
+	border: 1px solid #66CCFF;
+}
+#main #hot ul li a:hover {
+	background-color: #FF9900;
+	border-color: #FF6600;
+}
+#main #paper {
+	height: 469px;
+	width: 532px;
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	position: absolute;
+	left: 419px;
+	top: 14px;
+	background-image: url(../image/show.jpg);
+}
+#main #paper h1 {
+	text-align: center;
+
+}
+
+#main #shadow {
+	left: auto;
+	height: 355px;
+	width: 500px;
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	position: absolute;
+	left: 425px;
+	top: 46px;
+	margin-top: 500px;
+	background-image: url(../image/first.jpg);
+}
+#main #paper p {
+	padding-left: 2px;
+	padding-right: 5px;
+	font-size: medium;
+}
+#main #haizeituan {
+	height: 615px;
+	margin-top: 50px;
+	width: 400px;
+}
+#main #haizeituan h1 {
+	margin-left: 0px;
+	text-align: center;
+}
+#main #caomao {
+	width: auto;
+	margin-left: 50px;
+	margin-right: 50px;
+	height: 150px;
+	font-family: "微软雅黑";
+}
+#bottom {
+	margin-top: 50px;
+	height: 25px;
+	margin-bottom: 20px;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}

@@ -1,0 +1,140 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	border-radius: 0px;
+	padding: 0px;
+	margin: 0px;
+	color: #000000;
+	background-color: #B7F2EB;
+	background-repeat: no-repeat;
+	background-position: center 40px;
+}
+
+#top {
+	height: 40px;
+	background-image: url(../image/header.jpg);
+}
+#top #top-main {
+	height: 40px;
+	width: 82%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#top #top-main h1 {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size: 12px;
+	margin: 0px;
+	padding: 0px;
+	height: 40px;
+	width: 90px;
+	background-image: url(../image/top1.png);
+	background-repeat: no-repeat;
+	float: left;
+}
+#top #top-main h1 a {
+	text-indent: -9999px;
+	display: block;
+	height: 40px;
+	width: 85px;
+}
+#top  #top-main ul {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	padding-left: 15px;
+	list-style-type: none;
+	float: left;
+	height: 40px;
+	line-height: 40px;
+}
+#top  #top-main ul li {
+	padding-right: 5px;
+	display: inline;
+}
+#top #top-main ul {
+	width: auto;
+}
+#top #top-main ul li a {
+	color: #000000;
+	text-decoration: none;
+
+
+
+}
+#top #top-main ul li a:hover  {
+	text-decoration: underline;
+}
+#top  #top-main #form1 {
+	margin-left: 595px;
+	width: 358px;
+	height: 40px;
+	float: none;
+ }
+#top  #top-main #form1 .textfield {
+	color: #666666;
+	height: 25px;
+	width: 120px;
+	border: 1px solid #666666;
+}
+#top #top-main #form1 .button {
+	background-image: url(../image/button_bg.gif);
+	width: 45px;
+	height: 20px;
+	text-align: right;
+}
+#manhua {
+	width: 1000px;
+	height: 3400px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+#manhua #pic {
+	width: 308px;
+	height: 500px;
+	background-image: url(../image/mhbg.jpg);
+}
+#manhua #para {
+	width: 629px;
+	height: 554px;
+	margin-right: 10px;
+	float: right;
+	position: absolute;
+	left: 344px;
+	top: 7px;
+}
+#manhua #para p {
+
+}
+#manhua #pingjia {
+	height: 173px;
+	width: 889px;
+	position: absolute;
+	left: 38px;
+	top: 3160px;
+}
+#manhua #huojiang {
+	height: 2300px;
+	width: 606px;
+	position: absolute;
+	left: 152px;
+	top: 814px;
+}
+#manhua #chuban {
+	height: 248px;
+	width: 890px;
+	position: absolute;
+	left: 25px;
+	top: 560px;
+}
+#manhua #guankan {
+	height: 85px;
+	width: 368px;
+	position: absolute;
+	left: 306px;
+	top: 3309px;
+	text-align: center;
+	color: #CAE317;
+}
